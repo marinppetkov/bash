@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Description: increase the cpu numbers of list of VMs from one pool
 ## It dosen't check if the CPU configuration is supported. 
 ## Tested on xenserver 6.5
