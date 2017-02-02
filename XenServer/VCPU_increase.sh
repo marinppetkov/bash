@@ -2,7 +2,7 @@
 ## Description: increase the cpu numbers of list of VMs from one pool
 ## It dosen't check if the CPU configuration is supported. 
 ## Tested on xenserver 6.5
-## Synopsis ./script.sh [cores] [sockets] [input file]
+## Usage ./script.sh [cores] [sockets] [input file]
 if [ $# -eq 3 ]
         then
         vms=$( sed "s/,/ /g" $3 ) # note that the VMs from the input file should be devided with comma, otherwise you should modify this line
